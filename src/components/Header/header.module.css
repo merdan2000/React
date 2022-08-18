@@ -1,0 +1,64 @@
+header {
+    position: relative;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav {
+    float: right;
+    list-style: none;
+}
+
+ul.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 5s ease;
+}
+
+ul.nav li:hover {
+    opacity: 0.5;
+}
+
+.presentation {
+    margin: 50px 0;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background: #bcbcbc url("../../img/bg.jpg") no-repeat center;
+    position: relative;
+}
+
+.presentation:after {
+    content: "Лучшие товары для вашего дома";
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.presentation:before {
+    content: "по низким ценам";
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.total {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
